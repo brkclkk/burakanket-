@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="brkanketModelStoreContainer" CdmEntityContainer="brkanketEntities">
+    <EntitySetMapping Name="Kayit">
+      <EntityTypeMapping TypeName="brkanketModel.Kayit">
+        <MappingFragment StoreEntitySet="Kayit">
+          <ScalarProperty Name="kayitId" ColumnName="kayitId" />
+          <ScalarProperty Name="kayitUyeId" ColumnName="kayitUyeId" />
+          <ScalarProperty Name="kayitSoruId" ColumnName="kayitSoruId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Soru">
+      <EntityTypeMapping TypeName="brkanketModel.Soru">
+        <MappingFragment StoreEntitySet="Soru">
+          <ScalarProperty Name="soruId" ColumnName="soruId" />
+          <ScalarProperty Name="soruKodu" ColumnName="soruKodu" />
+          <ScalarProperty Name="soruAdi" ColumnName="soruAdi" />
+          <ScalarProperty Name="soruSayisi" ColumnName="soruSayisi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uye">
+      <EntityTypeMapping TypeName="brkanketModel.Uye">
+        <MappingFragment StoreEntitySet="Uye">
+          <ScalarProperty Name="uyeId" ColumnName="uyeId" />
+          <ScalarProperty Name="uyeNo" ColumnName="uyeNo" />
+          <ScalarProperty Name="uyeAdsoyad" ColumnName="uyeAdsoyad" />
+          <ScalarProperty Name="uyeDogTarih" ColumnName="uyeDogTarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
